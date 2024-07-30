@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+<!--            first layout-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo2"
+                android:layout_gravity="center">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Social Media Application">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                    />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:id="@+id/btnInsta"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/instalogo">
+                    </ImageView>
+                    </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:id="@+id/btnFacebook"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/facebook">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <!--            Second layout-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Shopping Application">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/btnAmazon"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/amazonlogo">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:id="@+id/btnFlipkart"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fliplogo">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_margin="20dp"
+                    android:id="@+id/btnMyntra"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/myntralogo">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/btnMeesho"
+
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/meeshoologo">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--            third layout-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+              android:layout_gravity="center"
+                android:text="Video Streaming Platform">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bthHotstar"
+                    android:layout_width="150dp"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hostarlogo">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:id="@+id/btnJiocinema"
+
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/jiocinemalogo">
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
